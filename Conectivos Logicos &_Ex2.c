@@ -10,6 +10,8 @@ int main(){
     scanf("%d", &y);
     printf("Digite o 3 numero: ");
     scanf("%d", &z);
+    
+    //scanf("%d %d %d", &x, &y, &z);
 
     if(x > 10 && y > 10 && z > 10){
         printf("Os tres numeros sao maiores que 10");
