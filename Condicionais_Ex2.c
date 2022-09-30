@@ -9,8 +9,6 @@ int main(){
     printf("Digite o segundo valor: ");
     scanf("%d", &y);
 
-    soma = x + y;
-
     if(x > y){
         printf("O primeiro valor eh maior que o segundo");
     }
