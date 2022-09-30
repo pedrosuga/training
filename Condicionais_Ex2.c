@@ -18,4 +18,5 @@ int main(){
     else{
         printf("O primeiro e o segundo sao iguais");
     }
+    return 0;
 }
