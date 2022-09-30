@@ -10,7 +10,7 @@ int main{
     printf("Digite o segundo valor com decimais: ");
     scanf("%f", &y);
 
-    int resultado = x * y;
+    float resultado = x * y;
     
     printf("O resultado da multiplicao entre os dois valores eh: %f", resultado);
     return 0;
