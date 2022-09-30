@@ -17,4 +17,5 @@ int main(){
     else{
         printf("A soma eh menor que 10");
     }
+    return 0;
 }
