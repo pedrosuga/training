@@ -7,7 +7,7 @@ int main(){
 
     for(int i = 0; i < 10; i++){
 
-        //Print ii and skip a line
+        //Print i and skip a line
         printf ("i = %d (Soma: %d) \n", i, soma);
 
         /* Increment the value of i in the sum
