@@ -3,19 +3,20 @@
 
 int main(){
 
-    int x, y, soma;
+    int x = 0;
+    int y = 0;
 
-    printf("Digite o primeiro numero entre 5 e 10 ");
-    scanf("%d", &x);
+    while (!(x > 5 && x < 10) || (b > 5 && b < 10)){
+        printf("\nDigite números entre 5 e 10. \n");
 
-    printf("Digite o segundo numero entre 5 e 10 ");
-    scanf("%d", &y);
+        printf("Digite um valor para x:");
+        scanf("%d", x);
 
-    soma = x + y;
+        printf("Digite um valor para y:");
+        scanf("%d", y);
 
-    while(soma >= 10 && soma <= 20){
-        printf("O valor da soma eh: %d", soma);
     }
 
+    printf("O valor da soma eh: %d", x + y);
     return 0;
 }
